@@ -14,7 +14,7 @@ import { setTimezone } from './shared/formatters';
 import { defineComponent, onMounted, watch } from 'vue';
 import { useSettingsStore } from './stores/settings';
 export default defineComponent({
-  name: 'App',
+  name: 'App ShibAI',
   components: { NavBar, Body, NavFooter },
   setup() {
     const settingsStore = useSettingsStore();
