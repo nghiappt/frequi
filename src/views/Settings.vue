@@ -1,6 +1,6 @@
 <template>
   <div class="container mt-3">
-    <b-card header="FreqUI Settings">
+    <b-card header="ShibAI Settings">
       <div class="text-start">
         <p>UI Version: {{ settingsStore.uiVersion }}</p>
         <b-form-group

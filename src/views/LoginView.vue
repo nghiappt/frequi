@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <b-card header="Freqtrade bot Login">
+    <b-card header="ShibAI bot Login">
       <Login ref="loginForm" />
     </b-card>
   </div>

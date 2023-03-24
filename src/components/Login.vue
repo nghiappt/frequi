@@ -34,7 +34,7 @@
           id="username-input"
           v-model="auth.username"
           required
-          placeholder="Freqtrader"
+          placeholder=""
           :state="nameState === '' ? null : nameState"
           @keydown.enter.native="handleOk"
         ></b-form-input>
@@ -60,10 +60,7 @@
           <br />
           <span v-if="errorMessageCORS">
             Please also check your bot's CORS configuration:
-            <a href="https://www.freqtrade.io/en/latest/rest-api/#cors"
-              >Freqtrade CORS documentation</a
-            ></span
-          >
+          </span>
         </b-alert>
       </div>
       <div v-if="inModal === false" class="float-end">

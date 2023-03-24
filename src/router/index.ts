@@ -12,32 +12,32 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/trade',
-    name: 'Freqtrade Trading',
+    name: 'ShibAI Trading',
     component: () => import('@/views/Trading.vue'),
   },
   {
     path: '/graph',
-    name: 'Freqtrade Graph',
+    name: 'ShibAI Graph',
     component: () => import('@/views/Graphs.vue'),
   },
   {
     path: '/logs',
-    name: 'Freqtrade Logs',
+    name: 'ShibAI Logs',
     component: () => import('@/views/LogView.vue'),
   },
   {
     path: '/backtest',
-    name: 'Freqtrade Backtest',
+    name: 'ShibAI Backtest',
     component: () => import('@/views/Backtesting.vue'),
   },
   {
     path: '/dashboard',
-    name: 'Freqtrade Dashboard',
+    name: 'ShibAI Dashboard',
     component: () => import('@/views/Dashboard.vue'),
   },
   {
     path: '/balance',
-    name: 'Freqtrade Balance',
+    name: 'ShibAI Balance',
     component: () => import('@/components/ftbot/Balance.vue'),
   },
   {
@@ -56,7 +56,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: '/settings',
-    name: 'Freqtrade Settings',
+    name: 'ShibAI Settings',
     component: () => import('@/views/Settings.vue'),
   },
   {
