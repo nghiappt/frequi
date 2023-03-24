@@ -19,7 +19,7 @@
             >Dashboard</router-link
           >
           <router-link class="nav-link navbar-nav" to="/graph">Chart</router-link>
-          <router-link class="nav-link navbar-nav" to="/logs">Logs</router-link>
+          <!-- <router-link class="nav-link navbar-nav" to="/logs">Logs</router-link> -->
           <router-link v-if="botStore.canRunBacktest" class="nav-link navbar-nav" to="/backtest"
             >Backtest</router-link
           >
